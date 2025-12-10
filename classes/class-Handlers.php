@@ -70,7 +70,7 @@ class Handlers extends Base {
 			}
 
 			$old_term = get_term( $term_id, $taxonomy );
-			// A little bit of redundancy to prefent an unecessary hit to the db
+			// A little bit of redundancy to prevent an unnecessary hit to the db
 			if ( null === $first_found_parent_in_list_of_terms_to_merge ) {
 				$first_found_parent_in_list_of_terms_to_merge = $old_term->parent;
 			}
@@ -314,5 +314,3 @@ class Handlers extends Base {
 
 
 }
-
-

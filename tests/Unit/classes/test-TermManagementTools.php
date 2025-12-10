@@ -8,13 +8,13 @@ class TermManagementTools_Test extends TestCase {
 
 	private $tmt;
 
-	public function setUp() {
+	public function setUp(): void {
 		parent::setUp();
 		$this->tmt = new TermManagementTools();
 	}
 
 
-	public function tearDown() {
+	public function tearDown(): void {
 		$this->tmt = null;
 		parent::tearDown();
 	}

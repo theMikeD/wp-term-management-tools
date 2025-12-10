@@ -8,13 +8,13 @@ class HTML_Test extends TestCase {
 
 	private $html;
 
-	public function setUp() {
+	public function setUp(): void {
 		parent::setUp();
 		$this->html = new HTML();
 	}
 
 
-	public function tearDown() {
+	public function tearDown(): void {
 		$this->html = null;
 		parent::tearDown();
 	}

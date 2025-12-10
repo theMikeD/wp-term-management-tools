@@ -28,6 +28,7 @@ package-lock.json
 **/tests/bootstrap.php.bak
 **/tests/phpunit.xml*
 **/reports/
+.phpunit.result.cache
 
 # PHP Unit generates files
 **/.csslintrc

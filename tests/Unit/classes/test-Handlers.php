@@ -8,7 +8,7 @@ class Handlers_Test extends TestCase {
 
 	private $handler;
 
-	public function setUp() {
+	public function setUp(): void {
 		parent::setUp();
 		$this->handler = new Handlers();
 		$this->create_sample_taxonomy__flat();
@@ -18,7 +18,7 @@ class Handlers_Test extends TestCase {
 		$this->clean_taxonomy( 'category' );
 	}
 
-	public function tearDown() {
+	public function tearDown(): void {
 		remove_action( 'init', 'cnmd_ct_create_sample_taxonomy__flat', 0 );
 		remove_action( 'init', 'cnmd_ct_create_sample_taxonomy__hierarchical', 0 );
 		$this->handler = null;
@@ -434,6 +434,3 @@ class Handlers_Test extends TestCase {
 function md_echo( $o ) {
 	echo print_r( $o, true ) . "\n";
 }
-
-
-

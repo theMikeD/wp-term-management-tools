@@ -10,7 +10,7 @@ class WPML_Test extends TestCase {
 	private $handler;
 	private $wpml;
 
-	public function setUp() {
+	public function setUp(): void {
 		parent::setUp();
 		$this->handler = new Handlers();
 		$this->wpml    = new WPML();
@@ -21,7 +21,7 @@ class WPML_Test extends TestCase {
 		$this->clean_taxonomy( 'category' );
 	}
 
-	public function tearDown() {
+	public function tearDown(): void {
 		remove_action( 'init', 'cnmd_ct_create_sample_taxonomy__flat', 0 );
 		remove_action( 'init', 'cnmd_ct_create_sample_taxonomy__hierarchical', 0 );
 		$this->handler = null;

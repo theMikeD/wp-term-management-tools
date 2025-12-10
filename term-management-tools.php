@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: Term Management Tools
-Version: 2.0.1
+Version: 2.0.2
 Description: Allows you to merge terms, move terms between taxonomies, and set term parents, individually or in bulk. The "Change Taxonomy" option supports WPML-translated terms.
 Author: theMikeD, scribu
 Author URI: https://www.codenamemiked.com

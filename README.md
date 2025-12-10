@@ -2,8 +2,8 @@
 Contributors: theMikeD, scribu  
 Tags: admin, category, tag, term, taxonomy, hierarchy, organize, manage, merge, change, parent, child  
 Requires at least: 4.2  
-Tested up to: 5.6  
-Stable tag: 2.0.1
+Tested up to: 6.9  
+Stable tag: 2.0.2
 Requires PHP: 7.1  
 License: GPLv2 or later  
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -69,6 +69,10 @@ Initial version of this plugin was by [scribu](http://scribu.net/), with contrib
 
 ## Changelog 
 
+### 2.0.2
+* Confirmed php suppoprt up to php8.4
+* Confirmed WordPress support up to 6.9
+
 ### 2.0.1
 * FIX: a WPML translation that only exists in a single site non-primary language was not being migrated correctly
 
@@ -114,4 +118,4 @@ Initial version of this plugin was by [scribu](http://scribu.net/), with contrib
 ## Upgrade Notice
 
 = 2.0.0 =
-Improved logic around parent-child terms, bug fixes, WPML support, tested and reviewed refactoring.
+Improved logic around parent-child terms, bug fixes, WPML support, tested and reviewed refactoring. 
