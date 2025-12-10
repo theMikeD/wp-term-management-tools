@@ -1,6 +1,6 @@
 # Term Management Tools 
 Contributors: theMikeD, scribu  
-Tags: admin, category, tag, term, taxonomy, hierarchy, organize, manage, merge, change, parent, child  
+Tags: admin, category, tag, term, taxonomy, manage  
 Requires at least: 4.2  
 Tested up to: 6.9  
 Stable tag: 2.0.2
