@@ -1,6 +1,6 @@
 # Term Management Tools 
 Contributors: theMikeD, scribu  
-Tags: admin, category, tag, term, taxonomy, manage  
+Tags: admin, category, tag, term, taxonomy  
 Requires at least: 4.2  
 Tested up to: 6.9  
 Stable tag: 2.0.2
@@ -8,7 +8,7 @@ Requires PHP: 7.1
 License: GPLv2 or later  
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Allows you to merge terms, move terms between taxonomies, and set term parents, individually or in bulk. The "Change Taxonomy" option supports WPML-translated terms.
+Allows you to merge terms, move terms between taxonomies, and set term parents, individually or in bulk.
 
 ## Description 
 
